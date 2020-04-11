@@ -1,0 +1,65 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.calc-btn {
+  padding: 15px 25px;
+  font-size: 32px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #333;
+  background-color: #ddd;
+  border-width: 3px;
+  border-color: #5554;
+  height: 100px;
+  width: 100%;
+}
+
+.result {
+  border-width: 3px;
+  border-color: #111;
+  height: 100px;
+  width: 100%;
+}
+
+.result-current {
+  margin-right: 30px;
+  font-size: 32px;
+  float: right;
+  border: none;
+  height: 70%;
+  width: 100%;
+  z-index: -1;
+  text-align: right;
+  margin-bottom: 25px;
+  pointer-events: none;
+}
+
+.result-previous {
+  margin-right: 30px;
+  font-size: 16px;
+  float: right;
+  border: none;
+  height: 20%;
+  width: 100%;
+  z-index: -1;
+  text-align: right;
+  color: #333d;
+  margin-bottom: 0px;
+  pointer-events: none;
+}
+
+.column-3 {
+  width: 75%;
+  float: left;
+}
+.column-2 {
+  width: 50%;
+  float: left;
+}
+.column-1 {
+  width: 25%;
+  float: left;
+}
